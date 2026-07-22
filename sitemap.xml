@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.managedcircuits.com/</loc></url>
-  <url><loc>https://www.managedcircuits.com/services/</loc></url>
-  <url><loc>https://www.managedcircuits.com/industries/</loc></url>
-  <url><loc>https://www.managedcircuits.com/industries/retail.html</loc></url>
-  <url><loc>https://www.managedcircuits.com/industries/healthcare.html</loc></url>
-  <url><loc>https://www.managedcircuits.com/industries/public-sector.html</loc></url>
-  <url><loc>https://www.managedcircuits.com/resources/</loc></url>
-  <url><loc>https://www.managedcircuits.com/resources/circuit-renewal-checklist.html</loc></url>
-  <url><loc>https://www.managedcircuits.com/about.html</loc></url>
-  <url><loc>https://www.managedcircuits.com/contact.html</loc></url>
-  <url><loc>https://www.managedcircuits.com/privacy.html</loc></url>
+<url><loc>https://www.managedcircuits.com/</loc></url>
+<url><loc>https://www.managedcircuits.com/services/</loc></url>
+<url><loc>https://www.managedcircuits.com/platform/</loc></url>
+<url><loc>https://www.managedcircuits.com/industries/</loc></url>
+<url><loc>https://www.managedcircuits.com/resources/</loc></url>
+<url><loc>https://www.managedcircuits.com/resources/circuit-renewal-checklist.html</loc></url>
+<url><loc>https://www.managedcircuits.com/about.html</loc></url>
+<url><loc>https://www.managedcircuits.com/contact.html</loc></url>
+<url><loc>https://www.managedcircuits.com/privacy.html</loc></url>
 </urlset>
