@@ -119,3 +119,17 @@
     height: 62px !important;
   }
 }
+
+/* Homepage client portal image */
+.portal-stage {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.portal-showcase-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
