@@ -821,3 +821,26 @@ section:has(.interactive-portal) > div:first-child p {
     min-width: 105px !important;
   }
 }
+
+/* Final footer logo correction */
+.site-footer > div:first-child {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.site-footer .footer-logo,
+.site-footer .footer-mark {
+  display: block !important;
+  width: 250px !important;
+  height: auto !important;
+  max-height: 70px !important;
+  padding: 0 !important;
+  margin: 0 0 18px !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  object-fit: contain !important;
+  object-position: left center !important;
+}
