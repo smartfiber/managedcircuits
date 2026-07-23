@@ -133,3 +133,18 @@
   height: auto;
   border-radius: 24px;
 }
+
+/* Remove white box around footer logo */
+.site-footer .footer-logo,
+.site-footer .footer-mark {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 0 18px 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  object-fit: contain;
+}
+
+.site-footer > div:first-child {
+  background: transparent !important;
+}
