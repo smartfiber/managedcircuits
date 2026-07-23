@@ -78,3 +78,44 @@
   object-fit: contain;
   object-position: left center;
 }
+
+/* Final Managed Circuits logo sizing */
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.site-header .brand img {
+  display: block;
+  width: 240px !important;
+  height: 58px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.site-footer .footer-logo,
+.site-footer .footer-mark {
+  display: block;
+  width: 260px !important;
+  height: 72px !important;
+  max-width: 100% !important;
+  max-height: none !important;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (max-width: 900px) {
+  .site-header .brand img {
+    width: 190px !important;
+    height: 48px !important;
+  }
+
+  .site-footer .footer-logo,
+  .site-footer .footer-mark {
+    width: 220px !important;
+    height: 62px !important;
+  }
+}
