@@ -148,3 +148,212 @@
 .site-footer > div:first-child {
   background: transparent !important;
 }
+
+/* Old-site visual treatment */
+
+/* Hero typography */
+.hero-approved .eyebrow {
+  color: #0a7f68 !important;
+  letter-spacing: .18em;
+  font-weight: 900;
+}
+
+.hero-approved .hero-copy h1 {
+  color: #071a35 !important;
+  font-size: clamp(64px, 7vw, 112px) !important;
+  line-height: .95 !important;
+  letter-spacing: -.055em !important;
+  font-weight: 900 !important;
+}
+
+.hero-approved .hero-copy h1 .blue {
+  color: #245eea !important;
+}
+
+.hero-approved .hero-copy h1 .green {
+  color: #18a773 !important;
+}
+
+.hero-approved .hero-copy > p {
+  color: #1d2f46 !important;
+  font-size: 20px !important;
+  line-height: 1.55 !important;
+  max-width: 680px;
+}
+
+/* Hero buttons */
+.hero-approved .button-blue {
+  background: #245eea !important;
+  color: #fff !important;
+  border-color: #245eea !important;
+  box-shadow: none !important;
+}
+
+.hero-approved .button-green {
+  background: #18a773 !important;
+  color: #fff !important;
+  border-color: #18a773 !important;
+  box-shadow: none !important;
+}
+
+.hero-approved .button-blue:hover,
+.hero-approved .button-green:hover {
+  transform: translateY(-2px);
+  filter: brightness(.96);
+}
+
+/* Proof strip */
+.hero-approved .proof-strip {
+  color: #17304d !important;
+  font-weight: 800;
+}
+
+/* Lifecycle section */
+.lifecycle {
+  padding-top: 70px !important;
+  padding-bottom: 72px !important;
+  background: #fff !important;
+}
+
+.lifecycle .eyebrow {
+  color: #245eea !important;
+  font-weight: 900 !important;
+  letter-spacing: .15em !important;
+}
+
+.lifecycle h2 {
+  color: #071a35 !important;
+  font-size: clamp(46px, 5vw, 76px) !important;
+  line-height: .95 !important;
+  letter-spacing: -.045em !important;
+  font-weight: 900 !important;
+  max-width: 1500px;
+}
+
+.lifecycle-line {
+  position: relative;
+  display: grid !important;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0 !important;
+  margin-top: 52px !important;
+  padding-top: 25px !important;
+}
+
+.lifecycle-line::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #245eea 0%, #18a773 100%);
+}
+
+.lifecycle-line span {
+  position: relative;
+  color: #071a35 !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  text-align: center;
+}
+
+.lifecycle-line span::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background: #18a773;
+}
+
+/* Blue-to-green CTA bar */
+.cta-bar {
+  margin: 0 clamp(20px, 4vw, 70px) 76px !important;
+  padding: 28px 38px !important;
+  border-radius: 20px !important;
+  background: linear-gradient(90deg, #245eea 0%, #18a773 100%) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.cta-bar b,
+.cta-bar small,
+.cta-bar span {
+  color: #fff !important;
+}
+
+.cta-bar > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cta-bar > div:first-child > span {
+  font-size: 30px;
+}
+
+.cta-bar .button-light {
+  background: #fff !important;
+  color: #245eea !important;
+  border: 0 !important;
+  font-weight: 900 !important;
+  min-width: 130px;
+}
+
+.cta-bar > div:last-child {
+  text-align: left;
+}
+
+/* Footer */
+.site-footer {
+  background: #061a38 !important;
+  color: #fff !important;
+  padding-top: 56px !important;
+}
+
+.site-footer h3,
+.site-footer a,
+.site-footer p,
+.site-footer span,
+.site-footer button {
+  color: #fff !important;
+}
+
+.site-footer a,
+.site-footer button {
+  opacity: .9;
+}
+
+.site-footer a:hover,
+.site-footer button:hover {
+  opacity: 1;
+}
+
+/* Mobile cleanup */
+@media (max-width: 800px) {
+  .hero-approved .hero-copy h1 {
+    font-size: 58px !important;
+  }
+
+  .lifecycle-line {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 34px !important;
+  }
+
+  .lifecycle-line::before {
+    display: none;
+  }
+
+  .lifecycle-line span::before {
+    top: -18px;
+  }
+
+  .cta-bar {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    padding: 24px !important;
+  }
+}
