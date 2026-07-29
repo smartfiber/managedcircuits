@@ -160,10 +160,11 @@
 
 .hero-approved .hero-copy h1 {
   color: #071a35 !important;
-  font-size: clamp(64px, 7vw, 112px) !important;
-  line-height: .95 !important;
+  font-size: clamp(52px, 4.6vw, 72px) !important;
+  line-height: .96 !important;
   letter-spacing: -.055em !important;
   font-weight: 900 !important;
+  margin: 14px 0 18px !important;
 }
 
 .hero-approved .hero-copy h1 .blue {
@@ -176,9 +177,14 @@
 
 .hero-approved .hero-copy > p {
   color: #1d2f46 !important;
-  font-size: 20px !important;
-  line-height: 1.55 !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
   max-width: 680px;
+  margin: 0;
+}
+
+.hero-approved .hero-actions {
+  margin: 22px 0 20px;
 }
 
 /* Hero buttons */
@@ -335,7 +341,16 @@
 /* Mobile cleanup */
 @media (max-width: 800px) {
   .hero-approved .hero-copy h1 {
-    font-size: 58px !important;
+    font-size: clamp(40px, 11vw, 52px) !important;
+    margin: 12px 0 16px !important;
+  }
+
+  .hero-approved .hero-copy > p {
+    font-size: 17px !important;
+  }
+
+  .hero-approved .hero-actions {
+    margin: 20px 0 18px;
   }
 
   .lifecycle-line {
